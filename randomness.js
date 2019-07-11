@@ -22,7 +22,7 @@ function randomNumber(){
     console.log(randNum);
 }
 function randomLetter(){
-    randLet = alphabet.substr(Math.floor(Math.random()*26, 1))
+    randLet = alphabet.substr(Math.floor(Math.random()*26), 1)
     console.log(randLet);
 }
 function randomFood(){
