@@ -22,18 +22,18 @@ function randomNumber(){
     console.log(randNum);
 }
 function randomLetter(){
-    randLet = alphabet.substr(Math.random()*26, 1)
+    randLet = alphabet.substr(Math.floor(Math.random()*26, 1))
     console.log(randLet);
 }
 function randomFood(){
-    console.log(foods[Math.random()*foods.length]);
+    console.log(foods[Math.floor(Math.random()*foods.length)]);
 }
 function randomStudent(){
     
-    console.log(students[Math.random()*students.length]);
+    console.log(students[Math.floor(Math.random()*students.length)]);
 }
 function randomGroup(){
-    for(let i = 0; i < 2; i++){
+    for(let i = 0; i < 3; i++){
         randomStudent();
     }
 }
